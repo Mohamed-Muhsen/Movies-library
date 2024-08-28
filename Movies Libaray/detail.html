@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MovaTv is considered one of the largest sites for presenting artistic works.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lora:wght@400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.12.0/toastify.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.12.0/toastify.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/public.js" defer></script>
+    <script src="js/detail.js" type="module"></script>
+
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="image/logo.png" alt="logo" alt="MovaTv">
+        </a>
+        <div class="dropdown-mode">
+            <button class="dropdown-button">Choose Mode<i class="fas fa-caret-down"></i></button>
+            <div class="dropdown-content">
+                <a href="#" id="light-mode"><i class="fas fa-sun"></i> Light Mode</a>
+                <a href="#" id="dark-mode"><i class="fas fa-moon"></i> Dark Mode</a>
+                <a href="#" id="reset-mode"><i class="fas fa-sync-alt"></i> Original Color</a>
+            </div>
+        </div>
+
+        <div class="search-box" search-box>
+            <div class="search-wrapper" search-wrapper>
+                <input type="text" name="search" placeholder="Search By Name ..." autocomplete="off"
+                    aria-label="search movies" class="search-field" search-field>
+                <i class="fas fa-search leading-icon"></i>
+            </div>
+
+            <button class="search-btn" search-toggler>
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+
+        <div class="search-btn" search-toggler menu-close>
+            <i class="fas fa-search"></i>
+        </div>
+
+        <button class="menu-btn" menu-btn menu-toggler>
+            <i class="fas fa-bars menu"></i>
+            <i class="fas fa-times close"></i>
+        </button>
+
+    </header>
+
+    <main>
+        <nav class="sidebar" sidebar>
+        </nav>
+        <div class="overlay" overlay menu-toggler>
+        </div>
+
+        <article class="container" page-content>
+
+
+
+
+
+        </article>
+
+    </main>
+</body>
+
+</html>
