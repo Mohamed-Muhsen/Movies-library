@@ -1074,7 +1074,6 @@ body{
         padding: 16px;
         display: flex;
         justify-content: space-around;
-        overflow: hidden;
         padding: 12px;
         gap: 8px;
         align-items: center;
