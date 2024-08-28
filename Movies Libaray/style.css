@@ -1063,6 +1063,7 @@ body{
         border-top-left-radius: var(--radius-36);
     }
 }
+    
 @media (max-width: 768px) {
     .header .search-btn, 
     .header .menu-btn {
@@ -1073,6 +1074,10 @@ body{
         padding: 16px;
         display: flex;
         justify-content: space-around;
+        overflow: hidden;
+        padding: 12px;
+        gap: 8px;
+        align-items: center;
     }
 
     .header .logo img {
